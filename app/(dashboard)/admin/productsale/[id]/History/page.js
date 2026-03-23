@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import ProductSaleServices from "@/services/ProductSaleServices";
+import ProductSaleServices from "@/services/ProductSaleService";
 import { format } from "date-fns";
 
 export default function SaleHistory({ saleId }) {
